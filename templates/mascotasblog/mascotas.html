@@ -1,0 +1,109 @@
+{% extends 'mascotasblog/inicio.html' %}  
+    {% load static %}
+
+{% block contenidoquecambia %}
+
+
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Bienvenidos a mi Post. El es Rolando!</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posted on August 23, 2022 by My DogBlog</div>
+                            <!-- Post categories-->
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="https://www.adiestrar-perros.com/blog/wp-content/uploads/2019/07/Como-no-Tener-Problemas-en-Casa-con-un-Perro-min.png" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">Este es mi perrito, Rolando. Tienen un año recién cumplido, y hace casi el mismo tiempo que pertenece a mi familia.</p>
+                            <p class="fs-5 mb-4">El es super mimoso y amoroso. Rolando es macho y es el mas gordo y peludo de los perros que tuve. Su nombre es por el protagonista de la novela La Torre Oscura de Stephen King.</p>
+                            <p class="fs-5 mb-4">Es muy juguetón, siempre te trae a los pies algun juguete y te pide jugar todo el tiempo. Le encanta el parque y correr.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">Su personalidad.</h2>
+                            <p class="fs-5 mb-4">Rolando es muy miedoso, no le gustan los ruidos fuertes y solamente quiere dormir. Es muy compañero y extremadamente mimoso.</p>
+                            <p class="fs-5 mb-4">Pero lo mas importante es que es muy amoroso, es la alegría de la casa y me hace muy feliz.</p>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section class="mb-5">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Deja un comentario!"></textarea></form>
+                                <!-- Comment with nested comments-->
+                                <div class="d-flex mb-4">
+                                    <!-- Parent comment-->
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://akamai.sscdn.co/uploadfile/letras/fotos/4/3/8/4/4384e141d79eeb1b16d62bedcf372f2b-tb2.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                        <div class="fw-bold">Ayelen D</div>
+                                        Es hermosos!!! me lo como a besos!!
+                                        <!-- Child comment 1-->
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://ae01.alicdn.com/kf/H85e8b010f1d54832b9d429a4a45ec64fv/OCCI-CHIARI-gafas-graduadas-para-miop-a-para-hombre-lentes-transparentes-de-acetato-gafas-graduadas-para.jpg_50x50.jpg_.webp" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Francisco M</div>
+                                                El mas lindo del mundo mundial XD!!!
+                                            </div>
+                                        </div>
+                                        <!-- Child comment 2-->
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://akamai.sscdn.co/uploadfile/letras/fotos/4/3/8/4/4384e141d79eeb1b16d62bedcf372f2b-tb2.jpg" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Ayelen D</div>
+                                                Que raza es??.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single comment-->
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://www.buenamusica.com/media/fotos/cantantes/50x50/fntxy.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                        <div class="fw-bold">Emanuel M</div>
+                                        Lo ví y lo amé!!! Me encantan los paticortos!!!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    
+                    <!-- Side widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Un poco sobre mi</div>
+                        <div class="card-body">Yo soy Francisco Meoniz, y Rolando es mi compañero. Soy estudiante de programación en Coderhouse y me gustan mucho los animalitos.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Call to action-->
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                    <div class="mb-4 mb-xl-0">
+                        <div class="fs-3 fw-bold text-white">No te pierdas ninguna entrada de Dlog!!!</div>
+                        <div class="text-white-50">¡Registarate para recibir notificaciones!</div>
+                    </div>
+                    <div class="">
+                        <div class="input-group mb-2">
+                            <input class="form-control" type="text" placeholder="Ingrese Su Correo Aqui" aria-label="Correo Electronico..." aria-describedby="button-newsletter" />
+                            <button class="btn btn-outline-light" id="button-newsletter" type="button">Registrar</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+{% endblock contenidoquecambia %}    

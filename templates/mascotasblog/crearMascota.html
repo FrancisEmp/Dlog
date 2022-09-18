@@ -1,0 +1,16 @@
+{% extends 'mascotasblog/inicio.html' %}  
+    {% load static %}
+
+{% block contenidoquecambia %}
+<title>Añadir una Mascota</title>
+
+    <h1>Añadir una nueva Mascota</h1>
+    <form action= {% url 'crearMascota' %} method = "POST">
+        {% csrf_token %} 
+        <table>
+            {{formulario.as_table}}
+        </table>
+        <input type = "submit" value="Crear"/>
+    </form>
+    <a href="{% url 'listaMascotas' %}"> || Regresar ||</a>  
+{% endblock contenidoquecambia %}
