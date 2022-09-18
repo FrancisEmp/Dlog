@@ -33,3 +33,7 @@ python --version
 # Agradecimiento
 
 * Muchas gracias al Profesor Luis y a nuestro tutor Anderson por hacernos sentir programadores!!!
+
+Aquí se encuentra el video explicativo de nuestro trabajo
+
+https://drive.google.com/drive/folders/1hCGuTsnCKsnN6_P8DczmwdFol8UcbFl5?usp=sharing
